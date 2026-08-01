@@ -1,7 +1,29 @@
 aid: qlub
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qlub.png
 name: Qlub
-description: Qlub is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Qlub is a hospitality payments and digital-menu technology company enabling
+  contactless pay-at-table, order-and-pay, digital menus, secure payment links, a
+  qlub SoftPOS terminal, and the qlub+ rewards program for restaurants, hotels, and
+  hospitality venues. Diners scan a QR code to view the bill, split it, add a tip,
+  and pay from their own phone without downloading an app or creating an account.
+  Qlub operates globally across the UAE, Saudi Arabia, Qatar, Egypt, Jordan,
+  Singapore, Malaysia, South Korea, Australia, Brazil, and the United States, and
+  integrates with more than one hundred point-of-sale systems. It is backed by Point
+  Nine. As of this enrichment pass Qlub publishes no public developer API, OpenAPI
+  specification, or self-serve developer portal; technical integrations are delivered
+  through direct POS partnerships.
 url: https://raw.githubusercontent.com/api-evangelist/qlub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Payments
+- Contactless Payments
+- QR Payments
+- Restaurants
+- Hospitality
+- Point of Sale
+- Digital Menu
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://qlub.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
